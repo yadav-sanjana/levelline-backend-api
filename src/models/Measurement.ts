@@ -8,9 +8,6 @@ class Measurement extends Model {
   public waist!: number;
   public hips!: number;
   public sleeveLength!: number;
-
-  // Additional fields can be added based on requirements
-
   public readonly createdAt!: Date;
   public readonly updatedAt!: Date;
 }

@@ -8,9 +8,6 @@ class Order extends Model {
   public fabricType!: string;
   public style!: string;
   public color!: string;
-
-  // Additional fields can be added based on requirements
-
   public readonly createdAt!: Date;
   public readonly updatedAt!: Date;
 }
